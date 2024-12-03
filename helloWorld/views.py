@@ -6,3 +6,7 @@ from . import views
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
+
+
+def halaman_utama(request):
+    return render(request, 'halaman_utama.html', {})

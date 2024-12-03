@@ -21,4 +21,5 @@ import helloWorld.views
 
 urlpatterns = [
     path('hello/', helloWorld.views.index),
+    path('halaman_utama/', helloWorld.views.halaman_utama),
 ]
